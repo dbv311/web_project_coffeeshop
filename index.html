@@ -110,7 +110,65 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <div class="reservation__form">
+            <div class="reservation__form form__admin">
+              <form class="form__container">
+                <div class="form__main-container">
+                  <fieldset class="form__container form__container_information">
+                    <label for="name" class="form__label">Nombre *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="form__item form__item_el_name"
+                      required
+                      placeholder="Nombre Apellido"
+                    />
+                    <label for="amount-people" class="form__label"
+                      >Número de comensales *</label
+                    >
+                    <input
+                      type="number"
+                      id="amount-people"
+                      class="form__item form__item_el_amount"
+                      required
+                      placeholder="1-8"
+                    />
+                    <label for="date" class="form__label">Fecha y hora *</label>
+                    <input
+                      type="date"
+                      id="date"
+                      class="form__item form__item_el_pubdate"
+                      required
+                    />
+                    <label for="email-address" class="form__label"
+                      >Tu correo electrónico *</label
+                    >
+                    <input
+                      type="email"
+                      id="email-address"
+                      class="form__item form__item_el_email"
+                      required
+                      placeholder="email@email.com"
+                    />
+                  </fieldset>
+                  <fieldset class="form__handlers form__container_reservation">
+                    <button type="submit" class="form__button">
+                      Reservar una mesa
+                    </button>
+                    <label class="form__label form__accept">
+                      <input
+                        type="checkbox"
+                        class="form__checkbox form__accept"
+                      />Acepto los términos de uso</label
+                    >
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="about"></section>
       </main>
