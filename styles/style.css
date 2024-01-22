@@ -233,6 +233,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  padding: 20px 15px;
 }
 
 .form__handlers {
@@ -272,4 +273,5 @@
   gap: 12px;
   justify-content: center;
   margin-bottom: 120px;
+  padding: 0;
 }
