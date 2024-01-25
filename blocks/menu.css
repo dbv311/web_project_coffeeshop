@@ -12,56 +12,58 @@
   display: flex;
   justify-content: center;
   margin: 100px 0 24px 0;
+  font-family: "lnter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
   display: flex;
   justify-content: center;
-  max-width: 800px;
+  text-align: center;
   margin: auto;
+  max-width: 800px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .menu__cards {
   display: flex;
   margin-top: 100px;
   justify-content: center;
-  align-items: center;
-  width: 100%;
   flex-wrap: wrap;
   gap: 100px;
+  margin-bottom: 100px;
 }
 
 .card {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
   width: 540px;
 }
 
 .card__title {
-  margin-bottom: 32px;
-}
-
-.card__content_size {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
-  margin: 0;
+  margin: 0 0 32px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.card__content_type {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 0;
-}
-
-.card__content_flavour {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 100px;
-  margin-top: 0;
+.card__content {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-item {
@@ -71,5 +73,6 @@
 }
 
 .card__list-divider {
-  border-bottom: 1px solid black;
+  flex-grow: 1;
+  border-bottom: 1px solid #838383;
 }
