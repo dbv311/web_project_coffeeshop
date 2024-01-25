@@ -1,0 +1,21 @@
+.about {
+  background-color: #0a2850;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about__title {
+  display: flex;
+  max-width: 251px;
+  margin: 100px 0 0 80px;
+}
+
+.about__content {
+  max-width: 660px;
+  margin: 119px 80px 173px 0;
+  flex-direction: column;
+}
