@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -16,6 +16,12 @@
 
 .about__content {
   max-width: 660px;
-  margin: 119px 80px 173px 0;
+  margin: 119px 80px 173px 20px;
+  display: flex;
   flex-direction: column;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+  margin-top: 0;
 }
