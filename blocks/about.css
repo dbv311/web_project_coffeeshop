@@ -1,17 +1,22 @@
 .about {
   background-color: #0a2850;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: white;
 }
 
 .about__title {
   display: flex;
   max-width: 251px;
   margin: 100px 0 0 80px;
+  z-index: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
@@ -19,9 +24,28 @@
   margin: 119px 80px 173px 20px;
   display: flex;
   flex-direction: column;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph {
   margin-bottom: 20px;
   margin-top: 0;
+}
+
+.about__paragraph:nth-of-type(3n) {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
 }
